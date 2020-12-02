@@ -9,7 +9,19 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path='/' >
-            <h1>Welcome to Haihuan Chen's Portfolio</h1>
+            <h1>Welcome to My Portfolio</h1>
+          </Route>
+          <Route exact path='/about' >
+            This is my about me page
+          </Route>
+          <Route exact path='/projects' >
+            These are my projects
+          </Route>
+          <Route exact path='/resume' >
+            This is my resume
+          </Route>
+          <Route exact path='/contact' >
+            This is my contact info
           </Route>
         </Switch>
       </Router>
