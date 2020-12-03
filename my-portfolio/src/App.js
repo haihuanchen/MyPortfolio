@@ -18,9 +18,6 @@ function App() {
           <Route exact path='/projects' >
             These are my projects
           </Route>
-          <Route exact path='/resume' >
-            This is my resume
-          </Route>
           <Route exact path='/contact' >
             This is my contact info
           </Route>

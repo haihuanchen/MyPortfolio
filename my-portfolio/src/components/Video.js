@@ -11,7 +11,7 @@ function Video() {
             <p>What are you waiting for?</p>
             <div className="video-btns">
                 <Button className='btns' buttonSytle='btn--outline' buttonSize='btn--large'>
-                    Check out my projects
+                    Checkout My Projects
                 </Button>
             </div>
         </div>
