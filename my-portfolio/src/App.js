@@ -1,7 +1,8 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './pages/Home'
+import Home from './pages/Home';
+import AboutMe from './pages/AboutMe'
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
             <Home />
           </Route>
           <Route exact path='/about' >
-            This is my about me page
+            <AboutMe />
           </Route>
           <Route exact path='/projects' >
             These are my projects

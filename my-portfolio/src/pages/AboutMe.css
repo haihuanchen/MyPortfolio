@@ -1,0 +1,15 @@
+.aboutMe-container {
+    display: flex;
+}
+
+.aboutMe-img {
+    float: left;
+    margin: 0 2.5em 1em 0;
+    width: 500px;
+    height: 500px;
+}
+
+.aboutMe-text > p {
+    margin-top: 15px;
+    margin-right: 20px;
+  }
