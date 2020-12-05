@@ -2,7 +2,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import AboutMe from './pages/AboutMe'
+import AboutMe from './pages/AboutMe';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
             These are my projects
           </Route>
           <Route exact path='/contact' >
-            This is my contact info
+            <Contact />
           </Route>
         </Switch>
       </Router>
