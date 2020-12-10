@@ -4,6 +4,11 @@ import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
+import Projects from './pages/Projects';
+import Goggle from './projects/Goggle';
+import Emall from './projects/Emall';
+import Grams from './projects/Grams';
+import CashMe from './projects/CashMe';
 
 function App() {
   return (
@@ -18,11 +23,13 @@ function App() {
             <AboutMe />
           </Route>
           <Route exact path='/projects' >
-            These are my projects
+            <Projects />
+            <Route exact path='/projects/Goggle' component={Goggle} />
+            <Route exact path='/projects/Grams' component={Grams} />
+            <Route exact path='/projects/eMall' component={Emall} />
+            <Route exact path='/projects/CashMe' component={CashMe} />
           </Route>
-          <Route exact path='/contact' >
-            <Contact />
-          </Route>
+          <Route exact path='/contact' component={Contact} />
         </Switch>
       </Router>
     </div>
