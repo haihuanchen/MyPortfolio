@@ -32,10 +32,11 @@ function App() {
             <Route exact path='/projects/eMall' component={Emall} />
             <Route exact path='/projects/CashMe' component={CashMe} />
           </Route>
-          
+
           <Route path='/contact'>
             <Contact />
           </Route>
+          
         </Switch>
       </Router>
     </div>

@@ -6,7 +6,7 @@ function Grams() {
     return (
         <div>
             <div className='post'>
-                <img src='images/img-2.jpg' alt="project-img" className="thumbnail" />
+                <img src='images/Grams.png' alt="project-img" className="thumbnail" />
                 <div className="post-preview">
                     <h3 className="post-title">Grams</h3>
                     <p className="post-intro">An online web application that allows users to sign-in and share their photos and captions online</p>
