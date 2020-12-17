@@ -16,12 +16,15 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
+
           <Route exact path='/' >
             <Home />
           </Route>
+
           <Route exact path='/about' >
             <AboutMe />
           </Route>
+
           <Route exact path='/projects' >
             <Projects />
             <Route exact path='/projects/Goggle' component={Goggle} />
@@ -29,7 +32,10 @@ function App() {
             <Route exact path='/projects/eMall' component={Emall} />
             <Route exact path='/projects/CashMe' component={CashMe} />
           </Route>
-          <Route exact path='/contact' component={Contact} />
+          
+          <Route path='/contact'>
+            <Contact />
+          </Route>
         </Switch>
       </Router>
     </div>

@@ -4,18 +4,15 @@ import '../pages/Projects.css';
 
 function CashMe() {
     return (
-        <>
-           <li className="project-container">
-               <Link className="project-link" to='/projects/CashMe'>
-                   <figure className='project-pic-wrap' data-category='Investment'>
-                       <img src='images/img-8.jpg' alt="project-img" className="project-img" />
-                   </figure>
-                   <div className="project-info">
-                       <h5 className="project-text">The Investment App that you are looking for!</h5>
-                   </div>
-               </Link>
-            </li> 
-        </>
+
+        <div className='post'>
+            <img src='images/img-8.jpg' alt="project-img" className="thumbnail" />
+            <div className="post-preview">
+                <h3 className="post-title">Cash Me Outside</h3>
+                <p className="post-intro">A web application that helps investors understand and make stocks investments</p>
+                <Link to='/projects/CashMe' className="post-link">Read More</Link>
+            </div>
+        </div>
     )
 }
 

@@ -7,20 +7,15 @@ import './Projects.css';
 
 function Projects() {
     return (
-        <div className="projects">
-            <h1>Projects</h1>
-            <div className="projects-container">
-                <div className="projects-wrapper">
-                    <ul className="projects-items">
-                        <Goggle />
-                        <Grams />
-                    </ul>
-                    <ul className="projects-items">
-                        <Emall />
-                        <CashMe />
-                    </ul>
-                </div>
+        <div className="main-container">
+            <h1>My Past Projects</h1>
+            <div className="post-wrapper">
+                <Goggle />
+                <Grams />
+                <Emall />
+                <CashMe />
             </div>
+            
         </div>
     )
 }

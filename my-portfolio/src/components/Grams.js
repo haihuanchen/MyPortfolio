@@ -4,18 +4,16 @@ import '../pages/Projects.css';
 
 function Grams() {
     return (
-        <>
-           <li className="project-container">
-               <Link className="project-link" to='/projects/Grams'>
-                   <figure className='project-pic-wrap' data-category='Social Media'>
-                       <img src='images/img-2.jpg' alt="project-img" className="project-img" />
-                   </figure>
-                   <div className="project-info">
-                       <h5 className="project-text">Grams - Look out for the Grams and post your pictures!</h5>
-                   </div>
-               </Link>
-            </li> 
-        </>
+        <div>
+            <div className='post'>
+                <img src='images/img-2.jpg' alt="project-img" className="thumbnail" />
+                <div className="post-preview">
+                    <h3 className="post-title">Grams</h3>
+                    <p className="post-intro">An online web application that allows users to sign-in and share their photos and captions online</p>
+                    <Link to='/projects/Grams' className="post-link">Read More</Link>
+                </div>
+            </div>
+        </div>
     )
 }
 
