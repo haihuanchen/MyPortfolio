@@ -5,7 +5,7 @@ import './project.css';
 function Goggle() {
     return (
         <div className="project-container">
-            <h1>Welcome to Goggle</h1>
+            <h1>Welcome to Goggle!</h1>
             <h3>A web search engine for users to search and receive documents and links about the subject inquiry </h3>
             <ul className="project-desc">
                 <li>Utilized Google Context API and Google CSE to retrieve search results from Google Search Engine</li>
@@ -13,8 +13,8 @@ function Goggle() {
                 <li>Employed Google Firebase Storage and Hosting services to allow users to conduct searches </li>  
             </ul>
             <div className="project-btns">
-                <Button variant="contained" size="large" color="Link">Live Website</Button>
-                <Button variant="contained" size="large" color="Link">GitHub</Button>
+                <Button variant="contained" size="large" color="Link" href="https://goggle-project.firebaseapp.com/" target="_blank">Live Website</Button>
+                <Button variant="contained" size="large" color="Link" href="https://github.com/haihuanchen/Goggle-Project" target="_blank">GitHub</Button>
             </div>
             <img src="images/Goggle.png" alt="project thumbnail" className='project-img' />
             <strong>Tech Stacks:</strong>
