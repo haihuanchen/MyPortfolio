@@ -10,7 +10,7 @@ function Goggle() {
                 <div className="post-preview">
                     <h3 className="post-title">Goggle</h3>
                     <p className="post-intro">A web search engine for users to search and receive documents and links about the subject inquiry </p>
-                    <Link to='/projects/Goggle' className="post-link">Read More</Link>
+                    <Link to='/Goggle' className="post-link">Read More</Link>
                 </div>
             </div>
         </div>

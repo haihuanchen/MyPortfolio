@@ -10,7 +10,7 @@ function Grams() {
                 <div className="post-preview">
                     <h3 className="post-title">Grams</h3>
                     <p className="post-intro">An online web application that allows users to sign-in and share their photos and captions online</p>
-                    <Link to='/projects/Grams' className="post-link">Read More</Link>
+                    <Link to='/Grams' className="post-link">Read More</Link>
                 </div>
             </div>
         </div>

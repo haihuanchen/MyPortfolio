@@ -9,7 +9,7 @@ function Emall() {
             <div className="post-preview">
                 <h3 className="post-title">eMall</h3>
                 <p className="post-intro">An eCommerce website to make online shopping(buying & selling) more accessible</p>
-                <Link to='/projects/eMall' className="post-link">Read More</Link>
+                <Link to='/eMall' className="post-link">Read More</Link>
             </div>
         </div>
     )

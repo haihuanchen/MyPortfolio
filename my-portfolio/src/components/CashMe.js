@@ -10,7 +10,7 @@ function CashMe() {
             <div className="post-preview">
                 <h3 className="post-title">Cash Me Outside</h3>
                 <p className="post-intro">A web application that helps investors understand and make stocks investments</p>
-                <Link to='/projects/CashMe' className="post-link">Read More</Link>
+                <Link to='/CashMe' className="post-link">Read More</Link>
             </div>
         </div>
     )

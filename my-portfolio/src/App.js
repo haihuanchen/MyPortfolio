@@ -27,16 +27,17 @@ function App() {
 
           <Route exact path='/projects' >
             <Projects />
-            <Route exact path='/projects/Goggle' component={Goggle} />
-            <Route exact path='/projects/Grams' component={Grams} />
-            <Route exact path='/projects/eMall' component={Emall} />
-            <Route exact path='/projects/CashMe' component={CashMe} />
           </Route>
+          
+          <Route exact path='/Goggle' component={Goggle} />
+          <Route exact path='/Grams' component={Grams} />
+          <Route exact path='/eMall' component={Emall} />
+          <Route exact path='/CashMe' component={CashMe} />
 
           <Route path='/contact'>
             <Contact />
           </Route>
-          
+
         </Switch>
       </Router>
     </div>
