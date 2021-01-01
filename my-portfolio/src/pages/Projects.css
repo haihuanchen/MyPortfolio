@@ -1,5 +1,6 @@
 .main-container {
     background-color: lightgray;
+    height: 100vh;
 }
 
 .main-container > h1{

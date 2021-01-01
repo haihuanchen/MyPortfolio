@@ -14,9 +14,9 @@
 
 .text {
     color: black;
-    position: absolute;
+    position: relative;
     text-align: center;
-    top: 20%;
+    margin-top: 10px;
     width: 100%;
     line-height: 0.4em;
 }
@@ -25,16 +25,15 @@
     width: 25px;
     height: auto;
     border-radius: 50%;
-    margin-right: 3px;
-    margin-left: 12px;
-    margin-top: -.25vh;
+    margin: 10px;
     object-fit: cover;
 }
 
 .link{
     color: black;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 2rem;
     text-decoration: none;
+    margin: 1vw;
 }
 

@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import '../App.css';
 
 function Navbar() {
-    const [click, setClick] = useState(false);
 
     return (
         <div className='navbar'>
@@ -12,7 +11,7 @@ function Navbar() {
                 <Link to="/" className='navbar-logo'>
                     Haihuan Chen <i class="far fa-lightbulb"></i>
                 </Link>
-                <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                <ul className="nav-menu">
                     <li className='nav-item'>
                         <Link to='/about' className='nav-links' >
                             About Me <i class="fab fa-blogger"></i>
